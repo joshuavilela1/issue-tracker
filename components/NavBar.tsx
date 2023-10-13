@@ -6,7 +6,7 @@ import { AiFillBug } from 'react-icons/ai';
 import classNames from 'classnames';
 
 export default function NavBar() {
-  const currentPath = usePathname(); //* / or /issues
+  const currentPath = usePathname(); //* / or /issues will be shown
 
   const links = [
     { label: 'Dashboard', href: '/' },
